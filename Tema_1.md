@@ -28,7 +28,7 @@
 
 ## 1.1 Установка
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_1/1.1.jpg)
 
 ## Выводы
 
