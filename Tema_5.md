@@ -30,7 +30,7 @@ set2 = {8, 12, 2, 29, 6}
 print(set1 - set2)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab1.png)
 
 ## Выводы
 Научились вычитать множества.
@@ -52,7 +52,8 @@ for i in range(3):
 print(set1)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab2.1.png)
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab2.2.png)
 
 ## Выводы
 На практике уидели разницу между set() и frozenset().
@@ -68,7 +69,7 @@ def replace(list):
 print(replace([2, 5, 6, 11, 20]))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab3.png)
 
 ## Выводы
 Научились менять местами элементы списка в одну строчку без доп переменных.
@@ -80,7 +81,7 @@ list = [10, 4, 11, 8, 15, 4, 12, 3, 2, 9, 9]
 print(list[2:6])
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab4.png)
 
 ## Выводы
 Научились выводить определенные элементы списка с помощью среза.
@@ -95,7 +96,7 @@ def useless(list):
 print(useless([11, 9, 18, 13, 5, 20, 9, 1, 10, 7, 20, 5, 11, 19, 5]))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab5.png)
 
 ## Выводы
 Разобрали функции, применимые к спискам.
@@ -112,7 +113,7 @@ print("3 - ", c)
 print("4 - ", d)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab6.png)
 
 ## Выводы
 Научились пользоваться разделением списков.
@@ -128,7 +129,7 @@ list.pop(0)
 print(list)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab7.png)
 
 ## Выводы
 Разобрали функции, применимые к спискам.
@@ -151,7 +152,7 @@ if __name__ == "__main__":
     print(res)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab8.png)
 
 ## Выводы
 Научились составлять список из нескольких списков.
@@ -175,7 +176,7 @@ if __name__ == "__main__":
     superset({-7, 4, 0, 7, 8, 10, -18, 12, -6}, {12, 13, -1, -18, 17, 3})
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab9.png)
 
 ## Выводы
 Нучились сравнивать множества и работать с супермножествами.
@@ -188,7 +189,7 @@ list = [-5, 14, -3, -5, 3, 5, -3, -20, -12, -6]
 print(list[::-1])
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/lab10.png)
 
 ## Выводы
 Нучились выводить список в обратном порядке.
@@ -218,7 +219,7 @@ for i in range(len(list)-1):
 print(per, " ", max)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/sam1.png)
 
 ## Выводы
 Вычислили необходимые показали, программа работает корректно.
@@ -237,7 +238,7 @@ for i in range(len(list)):
         print(list[i])
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/sam2.png)
 
 ## Выводы
 Вычислили необходимые показали, программа работает корректно.
@@ -273,7 +274,7 @@ minS(one, two, three)
 maxS(one, two, three)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/sam3.png)
 
 ## Выводы
 Вычислили необходимые показали, программа работает корректно.
@@ -303,7 +304,7 @@ if __name__ == "__main__":
     print(fixIt(three))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/sam4.png)
 
 ## Выводы
 Оценки заменены на новые, программа работает корректно.
@@ -335,7 +336,7 @@ if __name__ == "__main__":
     whyamIdoingit(three)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_5/pic/sam5.png)
 
 ## Выводы
 Необходимые действия были выполнены, программа работает корректно.
