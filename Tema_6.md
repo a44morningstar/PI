@@ -42,7 +42,7 @@ if not resp:
 print(resp.get("key"), resp.get("access"))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/lab1.png)
 
 ## Выводы
 Ознакомились с созданием и простейшими действиями словаря.
@@ -64,7 +64,7 @@ dict_maker(flower="hp", feather="atk", sands="atk%", goblet="cryo dmg", crown="c
 pprint(dict)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/lab2.png)
 
 ## Выводы
 Ознакомились с методом update() для словарей.
@@ -78,7 +78,7 @@ print(tuple(str))
 print(list(str))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/lab3.png)
 
 ## Выводы
 Научились разделять строку на отдельные символы с помощью кортежа и списка.
@@ -97,7 +97,7 @@ inf(*p1)
 inf(*p2)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/lab4.png)
 
 ## Выводы
 Освоили методы вывода иформации из кортежей.
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     print(tsort((1, 2, 6, 2.2, 8)))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/lab5.png)
 
 ## Выводы
 Ознакомились с сортировкой кортежа.
@@ -131,7 +131,7 @@ print(tuple(str.split(" ")))
 print(str.split(" "))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/sam1.png)
 
 ## Выводы
 Научились выводить разделённую строку как кортже и как список.
@@ -155,7 +155,8 @@ if __name__ == "__main__":
     print(delTp((2, 4, 6, 6, 4, 2), 6))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/sam2.png)
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/sam2.1.png)
 
 ## Выводы
 На практике убедились, что невозможно удалить элемент кортежа без изменения самого кортежа на другой тип коллекции.
@@ -184,7 +185,7 @@ if __name__ == "__main__":
 
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/sam3.png)
 
 ## Выводы
 Научились сортировать словари по ключам и значениям.
@@ -208,7 +209,7 @@ if __name__ == "__main__":
     print(func((2, 1, 8, 8, 5, 2, 6, 1, 6, 7, 6, 4, 0), 1))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/sam4.png)
 
 ## Выводы
   Научились делать срез кортежа и пользоваться этим на практике
@@ -233,7 +234,7 @@ if __name__ == "__main__":
     print(move_zeros(my_list))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_6/pic/sam5.png)
 
 ## Выводы
 Научились "сжимать" списки.
