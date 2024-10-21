@@ -25,9 +25,10 @@
 ### Составьте текстовый файл и положите его в одну директорию с программой на Питоне. Текстовый файл должен состоять минимум из двух строк.
 
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab1.png)
 
 ## Выводы
+Добавили текстовый файл в один директорий с кодом.
 
 ## Лабораторная работа №2
 ### Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
@@ -38,7 +39,7 @@ print(file.readline())
 file.close()
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab2.png)
 
 ## Выводы
 Научились читать построчно из файла.
@@ -52,7 +53,7 @@ print(file.readlines())
 file.close()
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab3.png)
 
 ## Выводы
 Научились читать все строчки файла за раз.
@@ -65,7 +66,7 @@ with open("input1.txt") as file:
     print(file.readlines())
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab4.png)
 
 ## Выводы
 Научились читать все строчки файла за раз с помощью with open().
@@ -79,7 +80,7 @@ with open("input1.txt") as file:
         print(line)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab5.png)
 
 ## Выводы
 Научились читать файл построчно.
@@ -97,7 +98,7 @@ with open("input1.txt", "r") as file:
     print(file.readlines())
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab6.png)
 
 ## Выводы
 Научились добавлять записи в файл.
@@ -115,7 +116,8 @@ with open("input1.txt", "r") as file:
         print(line)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab7.1.png)
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab7.2.png)
 
 ## Выводы
 Научились переписывать содержимое файла.
@@ -125,7 +127,6 @@ with open("input1.txt", "r") as file:
 
 ```python
 import os
-
 
 def print_docs(directory):
     all_files = os.walk(directory)
@@ -138,7 +139,7 @@ def print_docs(directory):
 print_docs("E:\Учёба\Программирование\ПИ")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab8.png)
 
 ## Выводы
 Научились выводить папки, директории и их содержимое.
@@ -162,7 +163,7 @@ def longestWord(file):
 print(longestWord("input1.txt"))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab9.png)
 
 ## Выводы
 
@@ -182,7 +183,7 @@ with open("rows_300.csv", "w", encoding="utf-8", newline="") as file:
         time.sleep(0.01)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/lab10.png)
 
 ## Выводы
 Ознакомились с расширением .csv и научились создавать подобные файлы через код.
@@ -207,7 +208,7 @@ list = sorted(dictionary.items(), key=lambda item: item[1], reverse=True)
 print(list[0])
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/sam1.png)
 
 ## Выводы
 Количество слов подсчитано корректно, программа работает.
@@ -231,7 +232,7 @@ elif choice == "2":
             print(line)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/sam2.png)
 
 ## Выводы
 Информация записывается в файл и выводится в консоль. Программа работает корректно.
@@ -256,7 +257,7 @@ print(numWrods)
 print(numLines)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/sam3.png)
 
 ## Выводы
 Научились считать буквы в тексте и строки.
@@ -288,7 +289,7 @@ for i in inputList:
 print(output)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/sam4.png)
 
 ## Выводы
 Научились "ценрузить" слова и их части.
@@ -305,7 +306,7 @@ for st in open("input.txt", "r", encoding="utf-8"):
 print(fout)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/a44morningstar/stuff/blob/Тема_7/pic/sam5.png)
 
 ## Выводы
 Научились сотрировать содержание файла.
